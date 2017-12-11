@@ -8,8 +8,10 @@ end
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go? (1 - 9)"
 
-def input_to_index(move)
-      '5'.to_i
+def input_to_index(input)
+  new_input = input.to_i
+  new_input -= 1
+  return new_input
     end
 
 board = [" "," "," "]
