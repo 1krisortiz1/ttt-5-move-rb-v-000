@@ -10,7 +10,7 @@ puts "Where would you like to go? (0 - 8)"
 
 def input_to_index(move)
       '5'.to_i
-    end        
+    end
 
 board = [" "," "," "]
 def update_array_at_with(array, index, value0)
