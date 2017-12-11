@@ -13,6 +13,7 @@ board = [" "," "," "]
 def update_array_at_with(array, index, value0)
   array[index] = value
 end
+update_array_at_with(board, 0, "Red")
 
 #display_board(board)
 # code your input_to_index and move method here!
