@@ -8,7 +8,7 @@ end
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go? (1 - 9)"
 
-display_board(board)
+
 
 def input_to_index(input)
   new_input = input.to_i
