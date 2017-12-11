@@ -14,19 +14,10 @@ def input_to_index(input)
   return new_input
     end
 
-#board = [" "," "," "]
-#def update_array_at_with(array, index, value0)
-#  array[index] = value
-#end
-#update_array_at_with(board, 0, "Red")
-#board
-
-#display_board(board)
-# code your input_to_index and move method here!
-#input_to_index = gets.strip
-#move = "X"
-#board[input_to_index.to_i] = move
-#board = [" "," "," "," "," "," "," "," "," "]
+def move(board, index, character = "X")
+  board[index] = character
+  return board
+end
 
 #ove = "X"
 #board[input_to_index
