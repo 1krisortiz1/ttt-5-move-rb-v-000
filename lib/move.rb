@@ -9,17 +9,13 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go? (1 - 9)"
 
 
-
-def input_to_index(input)
-  new_input = input.to_i
-  new_input -= 1
-  return new_input
-    end
+def input_to_index(user_input)
+  new_user_input = user_input.to_i
+  new_user_input -= 1
+  return new_user_input
+end
 
 def move(board, index, character = "X")
   board[index] = character
   return board
 end
-
-#ove = "X"
-#board[input_to_index
